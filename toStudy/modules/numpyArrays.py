@@ -8,3 +8,14 @@ import numpy as np
 # Create 2 numpy arrays from height and weight
 np_height = np.array(height)
 np_weight = np.array(weight)
+
+# Calculate bmi
+bmi = np_weight / np_height ** 2
+
+# For a boolean response
+bmi < 23
+
+# Print only those observations above 23
+bmi[bmi < 23]
+
+print(bmi)
