@@ -11,3 +11,6 @@ print ("myString =", myString)
 print ("myBoolean =", myBoolean)
 print ("uno =", uno, ", dos =", dos)
 print (uno, "+", dos, "=", tres)
+
+# You can show the variables like this too
+print("The value of myInt is = %d" %(myInt))
