@@ -25,3 +25,9 @@ print(result)
 # Multiply Strings
 result = "hello" * 5
 print(result)
+
+# Join lists
+even_numbers = [2,4,6,8]
+odd_numbers = [1,3,5,7]
+result = odd_numbers + even_numbers
+print(result)
