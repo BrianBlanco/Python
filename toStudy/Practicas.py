@@ -37,11 +37,17 @@ while continuarBucle:
     print(resultado)
 
     opcionCorrecta = True
+    repetirError = False
 
     while opcionCorrecta:
-        eleccionPersona = input("Repetir operacion S/N ")
+        if repetirError:
+            eleccionPersona = input("Elige bien")
+        else:
+            eleccionPersona = input("Repetir operacion S/N ")
+            repetirError = True
+
         opcionCorrecta = False
-        
+
         if eleccionPersona == "NO" or eleccionPersona == "No" or eleccionPersona == "N" or eleccionPersona == "n":
             continuarBucle = False
 
